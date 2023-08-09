@@ -1734,7 +1734,7 @@ xdrawglyphfontspecs(const XftGlyphFontSpec *specs, Glyph base, int len, int x, i
 				winy + dc.font.ascent + 1, width, wlw);
 		} else if (base.ustyle == 3) {
 			int ww = win.cw;//width;
-			int wh = dc.font.descent - wlw/2 - 1;//r.height/7;
+			int wh = r.height/8;
 			int wx = winx;
 			int wy = winy + win.ch - dc.font.descent;
 
